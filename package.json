@@ -1,0 +1,23 @@
+{
+  "name": "gsgc-logger",
+  "version": "0.0.1",
+  "description": "Shared logging library for GSGC APIs",
+  "main": "lib/gsgc-logger.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giantslidegamecompany/gsgc-logger.git"
+  },
+  "author": "Chase McClure",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giantslidegamecompany/gsgc-logger/issues"
+  },
+  "homepage": "https://github.com/giantslidegamecompany/gsgc-logger#readme",
+  "dependencies": {
+    "winston": "^2.3.0",
+    "winston-papertrail": "^1.0.4"
+  },
+  "engines": {
+    "node": ">= 6.9.0"
+  }
+}
